@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="tresaisSkripti2.js"></script>
+    <script src="js\bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/stili.css">
+    <title>Registration</title>
+</head>
+
+<body id="bodyTabula" onload="">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#">HOTEL NAME</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="homepage.html">Sākums</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="tresais2.html">Reģistrācija</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="tabula.html">Istabu saraksts</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+
+    <h1 id="head1">Reģistrācijas lapa</h1>
+
+
+    <div id="reg">
+        <form id="forma" method="GET">
+            <label for="firstname">Vārds</label><br>
+            <input type="text" name="firstname" id="firstname" value=""><br>
+
+            <label for="lastname">Last Name</label><br>
+            <input type="text" name="lastname" id="lastname" value=""><br>
+
+            <label for="phone">Phone Number</label><br>
+            <input type="text" name="phone" id="phone" value=""><br>
+
+            <label for="email">E-mail</label><br>
+            <input type="email" name="email" id="email" value=""><br>
+            <div id="confirmationMSG"></div>
+        </div>
+        
+            <button id="buttonID1" type="submit">Register</button>
+        </form>
+        
+    </div>
+
+    <div id="printedReg">
+        <p id="printhere"></p>
+        <p id="printhere2"></p>
+        <p id="printhere3"></p>
+        <p id="printhere4"></p>
+
+    </div>
+
+
+</body>
+<script src="regCheck333.js"></script>
+</html>
